@@ -1,33 +1,26 @@
+// Front End Framworks practice Activity
+
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import StorefrontLogo from './assets/cute-storefront.jpg'
 import './App.css'
 
 function App() {
+
+  // demo keeping track of click count
   const [count, setCount] = useState(0)
 
+  // how the app is rendered
   return (
     <>
+      <h1>Front End Frameworks</h1>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+          <img src={StorefrontLogo} />
       </div>
-      <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }

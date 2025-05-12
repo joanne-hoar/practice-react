@@ -1,12 +1,30 @@
-# React + Vite
+# MODULE 2 Practice Activities
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Activity #1
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Create a new react app from scratch
 
-## Expanding the ESLint configuration
+For example, use vite. Note that create-react-app is deprecated (see https://react.dev/blog/2025/02/14/sunsetting-create-react-app).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm create vite@latest practice-react
+
+cd practice-react
+
+npm install
+npm run dev
+```
+
+### Install vite cli 
+
+```bash
+npm install -D vite
+```
+
+## Run vite commands
+
+```bash
+npx vite dev
+```
